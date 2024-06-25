@@ -1,9 +1,9 @@
-import "./app.css"
+import { Todos } from "./modules"
 
 function App() {
 	return (
 		<main>
-			<h1>Home</h1>
+			<Todos />
 		</main>
 	)
 }
